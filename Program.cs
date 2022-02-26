@@ -20,7 +20,9 @@ namespace EmployeeWagePROBLEM
             //Display the message
             Console.WriteLine("Welcome to Employee Wage Program");
 
-            EmployeeCheck.CheckEmployeePresence();
+            //EmployeeCheck.CheckEmployeePresence();
+
+            EmpWage.CalculateEmpWage();
         }
     }
 }
