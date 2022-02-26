@@ -1,5 +1,8 @@
 ﻿using System;
 
+/// <summary>
+/// 
+/// </summary>
 namespace EmployeeWagePROBLEM
 {
     /// <summary>
@@ -13,7 +16,11 @@ namespace EmployeeWagePROBLEM
         /// <param name="args">The arguments.</param>
         static void Main(string[] args)
         {
+
+            //Display the message
             Console.WriteLine("Welcome to Employee Wage Program");
+
+            EmployeeCheck.CheckEmployeePresence();
         }
     }
 }
